@@ -40,7 +40,6 @@ const findPostBusiness = (token) => __awaiter(void 0, void 0, void 0, function* 
     if (!queryResult[0]) {
         throw new Error("Post not found");
     }
-    console.log(queryResult);
     let posts = [];
     queryResult[0].map((post) => {
         posts.push({

@@ -65,7 +65,6 @@ export const findPostBusiness = async(
     if (!queryResult[0]) {
        throw new Error("Post not found")
     }
-    console.log(queryResult)
 
     let posts: any = []
 
